@@ -1,0 +1,449 @@
+    1  brupsuite
+    2  sudo apt install brupsuite
+    3  ls
+    4  sudo ipconfig
+    5  sudo ifconfig
+    6  sudo nmap 10.0.2.15
+    7  sudo ifconfig
+    8  sudo nmap 10.0.2.15
+    9  sudo nmap 10.0.2.15 -p
+   10  sudo nmap 10.0.2.15 --p
+   11  nmap --proxy
+   12  nmap -h --proxy
+   13  ping google.com
+   14  sudo ping google.com
+   15  sudo ping gmail.com
+   16  sudo ping www.google.com
+   17  namp
+   18  nmap
+   19  sudo nmap -h
+   20  sudo nmap -l
+   21  sudo nmap -P
+   22  nmap -p 80
+   23  nmap 10
+   24  nmap 10.0.0.1
+   25  nmap 10.0.0.1 -V
+   26  nmap 172.16.50.77/20
+   27  sudo apt  update -y
+   28  docker version
+   29  sudo apt install docker.io docker-compose
+   30  docker version
+   31  sudo apt install docker-cli   \nsudo apt install podman-docker\n
+   32  docker version
+   33  sudo apt install build-essential git curl\n
+   34  nmap 10.0.0.1
+   35  nmap 10.0.0.1 -O
+   36  sudo ss  -tulnp
+   37  sudo nmap -p
+   38  sudo nmap -h
+   39  sudo nmap -lR
+   40  sudo nmap -l
+   41  ssh user@ip
+   42  ls
+   43  sudo apt install openssh-server
+   44  sudo apt update & upgrade
+   45  sudo apt update 
+   46  sudo systemctl enable ssh
+   47  sudo systemctl start ssh
+   48  sudo kiran@kali
+   49  sudo ssh kiran@kali
+   50  crunch kiran123 -o
+   51  logout
+   52  ssh kiran@127.0.01
+   53  ls
+   54  pwd
+   55  logout
+   56  sudo ssh kiran@kali
+   57  sudo apt install openssh.server
+   58  sudo apt install openssh-server
+   59  pwd
+   60  ssh kiran@127.0.0.1
+   61  pwd
+   62  ls -l
+   63  cd Desktop
+   64  cd ..
+   65  mkdir kiran
+   66  ls
+   67  rmdir kiran
+   68  ls
+   69  cd Pictures
+   70  ls
+   71  cd ..
+   72  cd Desktop
+   73  ls
+   74  cd ..
+   75  touch Desktop
+   76  cp k k1
+   77  cd Desktop
+   78  ls
+   79  cp k k1
+   80  ls
+   81  mv k k1
+   82  scp k1.txt kiran@localhost:/home/kiran
+   83  pwd
+   84  scp k1.txt kiran@localhost:/home/kiran/Desktop
+   85  scp k1.txt kiran@kalilocalhost:/home/kiran/Desktop
+   86  scp k1.txt kiran@kali@localhost:/home/kiran/Desktop
+   87  cat /etc/group
+   88  /etc/passwd
+   89  sudo /etc/passwd
+   90  cat /etc/passwd
+   91  cat /etc/shadow
+   92  sudo cat /etc/shadow
+   93  sudo cat /etc/gshadow
+   94  cat /etc/group
+   95  sudo useradd ka1 ka2 ka3 ka4 ka5
+   96  sudo useradd ka1 
+   97  ls
+   98  sudo useradd ka2
+   99  sudo useradd ka3
+  100  sudo useradd ka4
+  101  sudo useradd ka5
+  102  sudo useradd ka5 -p
+  103  sudo useradd -p ka5 
+  104  sudo useradd -p
+  105  sudo usermod 
+  106  sudo passwd ka1
+  107  sudo useradd -p
+  108  sudo useradd -p ka5 
+  109  sudo useradd -p ka1
+  110  sudo usermod -p
+  111  sudo groupadd
+  112  sudo groupadd developers
+  113  sudo usermod -aG developers ka1
+  114  Groups ka1
+  115  sudo Groups ka1
+  116  sudo Groups  
+  117  sudo Groups ka1
+  118  sudo usermod -aG developers ka2
+  119  sudo usermod -aG developers ka3
+  120  sudo usermod -aG developers ka4
+  121  Groups ka1
+  122  Groups ka2
+  123  sudo apt install ka1
+  124  sudo groups ka1
+  125  sudo groups ka3
+  126  sudo groups ka4
+  127  sudo groups ka5
+  128  whoami
+  129  id
+  130  who
+  131  w
+  132  last
+  133  lastlog
+  134  sudo apt install lastlog
+  135  sudo lastlog
+  136  sudo last
+  137  last
+  138  sudo cat /etc/login.defs
+  139  sudo cat /etc/security/pwquality.conf
+  140  sudo cat /etc/security/pwquality.conf-enforce
+  141  sudo cat /etc/security
+  142  cd /etc/security
+  143  ls
+  144  cd pwquality.conf
+  145  cat pwquailty.conf
+  146  sudo cat pwquailty.conf
+  147  sudo cat /etc/security/pwquality.conf
+  148  cd ..
+  149  sudo cat /etc/PAM.d
+  150  cd /etc
+  151  ls
+  152  sudo cat pam.d
+  153  sudo cd pam.d
+  154  cd /pam.d
+  155  cd pam.d
+  156  ls
+  157  sudo cat /etc/security/pwquality.conf
+  158  touch passwd
+  159  ls
+  160  sudo touch passwd
+  161  ls
+  162  cat passwd
+  163  cd ..
+  164  cd ,,
+  165  cd ..
+  166  cat /etc/login.defs
+  167  cd /etc
+  168  cd /pam.d
+  169  ls
+  170  cd pam.d
+  171  ls
+  172  touch common-password
+  173  sudo touch common-password
+  174  ls
+  175  sudo cat common-password
+  176  chage
+  177  chage -l
+  178  sudo chage -l
+  179  ls
+  180  chage -I
+  181  chage --list
+  182  chage -R
+  183  chage -R kiran
+  184  chage -l kiran
+  185  su -k1
+  186  cd ..
+  187  su -k1
+  188  cat /var
+  189  cd /var
+  190  ls
+  191  cd ..
+  192  sudo -l
+  193  sudo -v
+  194  ls
+  195  sudo -k
+  196  sudo -K
+  197  sudo -u root kiran
+  198  sudo -u root cat
+  199  sudo -g admin developers
+  200  sudo -u root ka1
+  201  sudo -s
+  202  nano output.txt
+  203  sudo touch output.txt
+  204  echo "Hello World" > output.txt
+  205  ls
+  206  sudo touch output.txt
+  207  sudo cat output.txt
+  208  echo "my  name" >> output.txt
+  209  sudo cat output.txt
+  210  sudo apt update
+  211  sudo apt update | grep err
+  212  journalctl
+  213  sudo apt update | grep error
+  214  sudo apt update | grep CPU
+  215  sudo apt update ctl
+  216  sudo apt update | grep Ign
+  217  sudo apt update | grep err
+  218  nano ka1.txt
+  219  nano ka2.txt
+  220  nano ka3.txt
+  221  ls
+  222  sudo touch output1.txt
+  223  ls
+  224  sudo touch output2.txt
+  225  Ls-l
+  226  ls-l
+  227  ls -l | grep "output1.txt" | wc -l
+  228  ls -l | grep ".txt" | wc -l
+  229  nano output.txt
+  230  grep "python" output.txt
+  231  nano output.txt
+  232  grep "python" output.txt
+  233  grep -i "python" output.txt
+  234  grep -c "python" output.txt
+  235  grep -c "y" output.txt
+  236  grep -c "my" output.txt
+  237  grep -c "study\" output.txt
+  238  grep -c "study" output.txt
+  239  grep -l "python" * 
+  240  grep -l "pyt" * 
+  241  grep -l "docker.io" * 
+  242  grep -I "docker.io" * 
+  243  grep -i "docker.io" * 
+  244  grep -l "docker.io" * 
+  245  grep -l "python" * >>date.txt
+  246  grep -l "python" * 
+  247  grep -o "python" output.txt 
+  248  history >> 15day.txt
+  249  nano 15day.txt
+  250  nano 16day.txt
+  251  history >> 16day.txt
+  252  nano 16day.txt
+  253  history >> 17day.txt
+  254  nano 17day.txt
+  255  history >> 18day.txt
+  256  nano 18day.txt
+  257  grep -n "python" output.txt 
+  258  grep  "^python" output.txt 
+  259  man grep
+  260  sed 's/name/kiran/' output.txt
+  261  sed 's/python/kiran/3' output.txt
+  262  sed 's/my/kiran/3' output.txt
+  263  sed 's/my/kiran/' output.txt
+  264  sed 's/my/kiran/n' output.txt
+  265  sed 's/my/kiran/1' output.txt
+  266  sed 's/my/kiran/1/' output.txt
+  267  sed 's/my/kiran2/' output.txt
+  268  sed 's/my/kiran2/n' output.txt
+  269  sed 's/my/kiran/' output.txt
+  270  sed 's/kiran/ankit/3' output.txt
+  271  sed 's/kiran/ankit/' output.txt
+  272  sed 's/my/ankit/2' output.txt
+  273  nano output.txt
+  274  sed 's/my/ankit/2' output.txt
+  275  sed 's/my/ankit/g' output.txt
+  276  sed 's/my/ankit/2g' output.txt
+  277  sed 's/my/kiran/2g' output.txt
+  278  echo "Welcome To The Geek Stuff" | sed 's/\(\b[A-Z]\)/\(\l\)/g'
+  279  sed -n 's/my/kiran/p' output.txt
+  280  sed  '1,3 s/my/kiran/p' output.txt
+  281  sed  '1, s/my/kiran/p' output.txt
+  282  sed  '1,1 s/my/kiran/p' output.txt
+  283  sed  '1,2 s/my/kiran/p' output.txt
+  284  sed  '1,5 s/my/kiran/p' output.txt
+  285  sed 'nd' output.txt
+  286  sed 'd' output.txt
+  287  nano output.txt
+  288  sed '1d' output.txt
+  289  sed '3d' output.txt
+  290  MAN AWK
+  291  man awk
+  292  awk -F'''{print $1,$4}' output.txt
+  293  awk -F'' '{print $1,$4}' output.txt
+  294  awk -F' ' '{print $1,$4}' output.txt
+  295  awk -F ' ' '{print $1,$4}' output.txt
+  296  awk -F '' '{print $1,$4}' output.txt
+  297  awk -F 'name' '{print $1,$4}' output.txt
+  298  awk -F 'car' '{print $1,$4}' output.txt
+  299  awk -F '' '{print $1,$4}' ka1.txt
+  300  nano ka1.txt
+  301  nano ka1.csv
+  302  awk -F '' '{print $1,$4}' ka1.csv
+  303  awk -F ',' '{print $1,$4}' ka1.csv
+  304  awk -F ',' '{print $0}' ka1.csv
+  305  awk -F ',' '$4==5000{print $0}' ka1.csv
+  306  awk -f print_salary.awk ka1.csv
+  307  nmap 172.16.30.1
+  308  nmap 172.16.30.110
+  309  nmap -sS 172.16.30.110
+  310  man nmap
+  311  nmap -p 172.16.30.110
+  312  nmap -p 172.16.30.1
+  313  man nmap
+  314  nmap -ps 172.16.30.1
+  315  nmap -pL 172.16.30.1
+  316  man nmap
+  317  nmap -iL 172.16.30.1
+  318  nmap -il 172.16.30.1
+  319  nmap -sN 172.16.30.1
+  320  nmap -sS 172.16.30.1
+  321  awk -F ',' ' print_salary.awk ka1.csv
+  322  awk -F ',' ' print_salary.awk' ka1.csv
+  323  awk -F ',' -f  print_salary.awk ka1.csv
+  324  awk -F ',' -f output.awk ka1.csv
+  325  nano script.awk
+  326  awk -F ',' -f script.awk ka1.csv
+  327  nano ka1.csv
+  328  awk -F ',' -f script.awk ka1.csv
+  329  awk '{print NR,$0}' ka1.txt
+  330  man awk
+  331  man cut
+  332  man grep 
+  333  man unique
+  334  man uniq
+  335  grep -o "ISMI:[0-9]*" lte.log
+  336  nano  lte.log
+  337  grep -oE '[0-9]{15}' lte.log
+  338  grep -oE '[0-9]{15}' lte.log | sort | uniq -c
+  339  grep "CELL_ID"
+  340  cat*.log | grep "FAULT" | sort |uniq -c |sort -nr
+  341  cat *.log | grep "FAULT" | sort |uniq -c |sort -nr
+  342  grep -w '12345' lte.log
+  343  grep -w 'CALL_DROP' lte.log | sort | uniq -c |sort -nr
+  344  man sort
+  345  man awk
+  346  man uniq
+  347  clear
+  348  grep -w 'CALL_DROP' lte.log | sort | uniq -c |sort -nr
+  349  grep -w 'CALL_DROP' lte.log | sort | uniq -c |sort -cr
+  350  grep -w 'CALL_DROP' lte.log
+  351  nano  lte.log\
+  352  nano  lte.log
+  353  grep -w 'CELL' lte.log
+  354  grep -w 'HANDOVER' lte.log
+  355  grep -w 'HANDOVER' lte.log | sort |uniq -c | sort -n
+  356  grep -w  lte.log | sort |uniq -c | sort -n
+  357  clear
+  358  grep "IMSI"
+  359  grep "CELL_ID"
+  360  grep -w '12345' lte.log
+  361  grep -w 'ATTACH_REQ' lte.log
+  362  clear
+  363  grep -w 'ATTACH_REQ' lte.log
+  364  grep -w '12345' lte.log
+  365  grep "CELL_ID"
+  366  clear
+  367  grep -w '12345' lte.log
+  368  grep -w 'ATTACH_REQ' lte.log
+  369  grep -w 'IMSI' lte.log
+  370  grep 'IMSI' lte.log
+  371  grep -oE '[0-9]{15}' lte.log | sort | uniq -c
+  372  grep -oE '[0-9]{15}' lte.log
+  373  awk -F ',' ' {print $2}' lte.log
+  374  awk -F ',' ' {print $3}' lte.log
+  375  awk -F ',' ' {print $3,$4}' lte.log
+  376  awk -F ',' ' {print $1,$2}' lte.log
+  377  sed '1d' lte.log
+  378  grep -w 'CALL_DROP' lte.log | sort | uniq -c |sort -cr
+  379  grep -w 'ATTACH_REQ' lte.log | sort | uniq -c |sort -cr
+  380  sed 's/time/datetime' lte.log
+  381  sed 's/time/datetime/' lte.log
+  382  sed -i 'CELL=12345' /s/\(time=[^]*/\) Z/\1+00:00/' lte.log
+  383  sed -i 'CELL=12345' '/s/\(time=[^]*/\) Z/\1+00:00/' lte.log
+  384  sed -i 'CELL=12345 /s/\(time=[^]*/\) Z/\1+00:00/' lte.log
+  385  sed -i '/s/\(time=[^]*/\) Z/\1+00:00/' lte.log
+  386  sudo apt update
+  387  nmcli connection show
+  388  man ps
+  389  nano top.sh
+  390  nano master.sh
+  391  nano master.txt
+  392  nano k1.txt
+  393  ls
+  394  pwd
+  395  nano k1.sh
+  396  nano manage.sh
+  397  nano port.sh
+  398  chmod +x port.sh
+  399  ./port.sh
+  400  ip -a
+  401  ip a
+  402  ./port.sh
+  403  nano port.sh
+  404  chmod +x port.sh
+  405  ./port.sh
+  406  nano inet.sh
+  407  chmod +x inet.sh
+  408  ./inet.sh
+  409  ./port.sh
+  410  ip a
+  411  nano port.sh
+  412  ./port.sh
+  413  nano port.sh
+  414  ./port.sh
+  415  ip a
+  416  nano port.sh
+  417  ./port.sh
+  418  nano port.sh
+  419  ./port.sh
+  420  ping -c5 google.com
+  421  nano port.sh
+  422  ping -c5 amazon.com
+  423  ping -c5 instagram.com
+  424  nano ping.sh
+  425  chmod +x ping.sh
+  426  ./ping.sh
+  427  nano ping.sh
+  428  ./ping.sh
+  429  nano ping.sh
+  430  sudo apt install bc
+  431  ddd
+  432  nano ping.sh
+  433  ./ping.sh
+  434  nano ping1.sh
+  435  chmod +x ping1.sh
+  436  ./ping1.sh
+  437  nano ping2.sh
+  438  chmod +x ping2.sh
+  439  ./ping2.sh
+  440  sudo apt install bc
+  441  ./ping2.sh
+  442  sudo apt install bc
+  443  man bc
+  444  rm ping1.sh
+  445  rm ping.sh
+  446  ./ping2.sh
+  447  nano ping2.sh
+  448  history >> 11day.txt
+  449  ls
